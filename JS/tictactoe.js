@@ -68,4 +68,8 @@ const resetGame=()=>{
     startTic();
     console.log(boxes);
 }
-// resetbtn.onClick=resetGame();
+
+const newgame = ()=>{
+    resetGame();
+    msgcontainer[0].classList.add("hide");
+}
